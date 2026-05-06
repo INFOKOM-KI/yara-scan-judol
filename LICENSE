@@ -1,0 +1,101 @@
+TangerangKota-CSIRT Yara Rule Detection License 1.0
+===============================================
+
+Copyright (c) 2026 Nauliajati <csirt@tangerangkota.go.id>
+TangerangKota-CSIRT — Computer Security Incident Response Team Pemerintah Kota Tangerang
+
+
+SYARAT DAN KETENTUAN PENGGUNAAN
+--------------------------------
+
+Aturan deteksi YARA yang terdapat dalam repositori ini dikembangkan secara
+mandiri oleh Tim TangerangKota-CSIRT untuk keperluan pengamatan, pertahanan siber dan
+respon insiden. Lisensi ini mengatur penggunaan, distribusi, dan modifikasi
+seluruh file aturan (.yar, .yara) beserta dokumentasi yang menyertainya.
+
+
+1. HAK YANG DIBERIKAN
+
+   a. Penggunaan Defensif
+      Anda diizinkan untuk menggunakan aturan-aturan ini secara bebas dalam
+      konteks pertahanan siber, termasuk namun tidak terbatas pada:
+      - Pemindaian file dan sistem untuk mendeteksi ancaman
+      - Integrasi ke dalam platform SIEM, EDR, dan alat keamanan lainnya
+      - Kegiatan respon insiden dan investigasi forensik digital
+      - Pengembangan kapabilitas threat hunting di lingkungan yang Anda kelola
+
+   b. Penelitian dan Pendidikan
+      Penggunaan untuk tujuan penelitian keamanan siber dan pendidikan
+      diizinkan dengan syarat mencantumkan atribusi yang jelas kepada penulis
+      asli (Nauliajati, TangerangKota-CSIRT).
+
+   c. Distribusi
+      Redistribusi aturan-aturan ini diizinkan dalam bentuk asli maupun yang
+      telah dimodifikasi, asalkan:
+      - File lisensi ini disertakan dalam setiap distribusi
+      - Perubahan yang dilakukan didokumentasikan secara jelas
+      - Atribusi kepada penulis asli tetap dipertahankan
+
+
+2. PEMBATASAN
+
+   a. Penggunaan Berbahaya
+      Aturan-aturan ini TIDAK BOLEH digunakan untuk tujuan berbahaya, termasuk
+      namun tidak terbatas pada:
+      - Mengidentifikasi kelemahan dalam sistem yang tidak Anda miliki izin aksesnya
+      - Memfasilitasi aktivitas ilegal, termasuk judi online itu sendiri
+      - Mengelak/Mengelabui sistem deteksi keamanan untuk tujuan serangan
+
+   b. Klaim Kepemilikan
+      Anda tidak diizinkan untuk mengklaim kepemilikan atas aturan-aturan ini
+      atau melepas aturan yang dimodifikasi tanpa menyebutkan karya aslinya.
+
+
+3. PENAFIAN JAMINAN
+
+   ATURAN-ATURAN INI DISEDIAKAN "APA ADANYA" (AS IS), TANPA JAMINAN APAPUN,
+   BAIK TERSURAT MAUPUN TERSIRAT. TIM TANGERANGKOTA-CSIRT DAN PENULIS TIDAK
+   BERTANGGUNG JAWAB ATAS:
+   - FALSE POSITIVE atau FALSE NEGATIVE yang dihasilkan aturan ini
+   - Kerugian langsung maupun tidak langsung akibat penggunaan atau
+     ketidakmampuan menggunakan aturan ini
+   - Kerusakan sistem, kehilangan data, atau insiden keamanan yang berkaitan
+     dengan penggunaan aturan ini
+
+   Pengguna bertanggung jawab penuh untuk memvalidasi aturan ini di lingkungan
+   mereka sebelum digunakan dalam produksi.
+
+
+4. ATRIBUSI
+
+   Apabila aturan-aturan ini dipublikasikan, disertakan dalam produk, atau
+   dirujuk dalam penelitian, mohon mencantumkan atribusi berikut:
+
+   "YARA Rules oleh Nauliajati, TangerangKota-CSIRT <csirt@tangerangkota.go.id>"
+   Tersedia di: https://csirt.tangerangkota.go.id
+
+
+5. KONTRIBUSI
+
+   Kontribusi perbaikan, penambahan aturan, atau koreksi false positive
+   dapat disampaikan kepada:
+
+   Email    : csirt@tangerangkota.go.id
+   Subjek   : [YARA-CONTRIB] Judul Kontribusi Anda
+
+
+6. VERSI DAN PEMBARUAN
+
+   Versi terbaru dari aturan-aturan ini tersedia melalui saluran distribusi
+   resmi TangerangKota-CSIRT. Pengguna disarankan untuk memeriksa pembaruan
+   secara berkala mengingat taktik pelaku judi online terus berkembang.
+
+   Versi Lisensi : 1.0
+   Tanggal       : 2026-05-06
+   Berlaku untuk : Semua file .yar dan .yara dalam direktori ini
+
+
+---
+
+Untuk pertanyaan, pelaporan false positive, atau kontribusi aturan baru,
+hubungi Tim TangerangKota-CSIRT di csirt@tangerangkota.go.id.
