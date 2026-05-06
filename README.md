@@ -88,7 +88,7 @@ WordPress adalah CMS yang paling sering dikompromikan untuk judol. Ruleset ini m
 
 | Aturan | Skor | Yang Dideteksi |
 |---|---|---|
-| `Judol_WP_FakePlugin_2025` | 85 | Plugin palsu dengan header WP + kode injeksi judol |
+| `Judol_WP_FakePlugin` | 85 | Plugin palsu dengan header WP + kode injeksi judol |
 | `Judol_WP_ThemeInject` | 80 | functions.php / tema dimodifikasi + konten judol |
 | `Judol_WP_Action_Hook_Inject` | 85 | `add_action()` / `add_filter()` + konten judol |
 | `Judol_WP_PostDB_Inject` | 85 | `wp_insert_post()` / `wpdb->query()` + konten judol |
